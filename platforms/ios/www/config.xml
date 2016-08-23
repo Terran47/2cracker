@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.terra.word2memory" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>2cracker</name>
+    <description>
+        Случайные слова из активного списка 2cracker.org 
+    </description>
+    <author email="terran47@mail.ru" href="http://2cracker.org">
+        TERRA
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <platform name="android">
+    <preference name="android-minSdkVersion" value="15"/>
+    </platform>
+
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+
+    <icon src="icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="mailto:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="~5.1.1" />
+</widget>
+

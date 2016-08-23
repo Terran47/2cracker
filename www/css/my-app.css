@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+}
+.page {
+	background: #92af5a;
+}
+.fa-list{
+	color: #000;
+}
+
+a{
+	color:#f1f1f1;
+}
+.panel{
+	background: #34495e;
+	font-family: tahoma;
+}
+.content-block {
+	color:#fdfdfd;
+}
+.content-block-inner{
+	background: rgba(255,255,255,0.50);
+  color: #424141;
+}
+/* вывод слов в приложении
+================================ */
+html, body { background: #92af5a; }
+nav {margin-top: 40px; }
+
+nav .drop-down {
+  list-style: none; 
+  overflow: hidden; 
+  height: auto; 
+  background-color: #34495e;
+  font-family: Arial;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: height 1s ease;
+          transition: height 1s ease;
+}
+.descrip {
+	padding: 15px 0px;
+	background: #fff;
+	color: #000;
+}
+.numList {
+	float: left;
+	padding: 10px;
+}
+
+nav .drop-down.closed {
+  height: 43px;
+}
+
+.descrip {
+  border-bottom: 7px solid rgb(5, 64, 51);
+  border-right: 7px inset rgb(35, 99, 84);
+}
+
+nav .drop-down li a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px; 
+}
+
+nav .drop-down li:first-child a:after {
+  content: "\25BC";
+  float: right;
+  margin-left: -30px; 
+}
+/* конец  */
+
+.content-block-title{
+	color: #fff;
+}
+
+.atanchen {
+	background: rgba(255,255,255,0.5);
+    color: #424141;
+    font-size: 12px;
+    padding: 7px;
+    margin-top: 60%;
+}
+
+.text-info {
+  text-align: justify;
+  color: #424141;
+}
+.fa-chevron-right {
+  color: #000;
+}
